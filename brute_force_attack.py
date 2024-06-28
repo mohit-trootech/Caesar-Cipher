@@ -8,6 +8,9 @@ from encryption import encryption
 
 @check_complexity
 def brute_force_attack(password):
+    """
+    brute force attack without key
+    """
     print("Brute Forcing Hash Password")
     with open("password_data.csv", "r") as fp:
         data = csv.reader(fp)
@@ -24,4 +27,5 @@ def brute_force_attack(password):
 
 if __name__ == "__main__":
     brute_force_attack("123")
+    print(brute_force_attack.__doc__)
     pass

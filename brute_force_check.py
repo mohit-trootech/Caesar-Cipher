@@ -18,3 +18,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    print(__file__.__doc__)
