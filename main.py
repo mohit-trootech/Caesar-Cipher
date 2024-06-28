@@ -14,7 +14,7 @@ def main():
     """
     try:
         plain_text = input(r"Enter Secret Message: ")
-        key = int(input("Please Enter Key"))
+        key = int(input("Please Enter Key: "))
         cipher = encryption(plain_text, generate_key(key))
         print("Cipher Text: ", cipher)
         plain_text = decryption(cipher, generate_key(key))
