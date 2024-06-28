@@ -21,6 +21,9 @@ def decryption(msg: str, key: (str, int)) -> str:
     except ValueError:
         print(constant.INT_ERROR)
         return
+    except OverflowError as ofe:
+        print(constant.OVERFLOW_ERROR, ofe)
+        return
     except EmptyString as es:
         print(es)
         return
