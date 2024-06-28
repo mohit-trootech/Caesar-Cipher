@@ -7,7 +7,7 @@ from encryption import encryption
 
 
 @check_complexity
-def brute_force_attack(password):
+def brute_force_attack(password: str) -> None:
     """
     brute force attack without key
     """
