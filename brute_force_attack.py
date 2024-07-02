@@ -22,10 +22,9 @@ def brute_force_attack(password: str) -> None:
                     print("Found Password", item)
                     return
         else:
-            print("Secure Password")
+            print("Secure Password".center(50, "\u1000"))
 
 
 if __name__ == "__main__":
-    brute_force_attack("123")
-    print(brute_force_attack.__doc__)
+    brute_force_attack("Yatish@1234")
     pass
