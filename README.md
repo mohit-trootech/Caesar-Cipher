@@ -1,4 +1,4 @@
-# Caesar Cipher Encryption Decryption
+# Caesar Cipher Encryption Decryption With Brute Force Attack Approach
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
@@ -12,6 +12,7 @@ Despite its simplicity, the Caesar Cipher formed the groundwork for modern crypt
 - Encryption and Decryption Separate Modules are Used for Respective Process.
 - Encryption and Decryption Process Uses ASCII Digits.
 - Brute Force Check Added with Password Data
+- Secret Password Generate Random Password and using Bruteforce to Check the Random Password Validity
 
 ## Documentation Reference
 

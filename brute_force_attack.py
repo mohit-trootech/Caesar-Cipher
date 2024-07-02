@@ -26,5 +26,5 @@ def brute_force_attack(password: str) -> None:
 
 
 if __name__ == "__main__":
-    brute_force_attack("Yatish@1234")
+    brute_force_attack("Mohit@1234")
     pass
